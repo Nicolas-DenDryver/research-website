@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- 
+  FICHIER : index.html
+  PAGE D'ACCUEIL DU SITE DE RECHERCHE DE NICOLAS DEN DRYVER
+  Structure principale avec header, contenu principal et footer
+-->
+<html lang="en"> <!-- Langue du document : anglais -->
+<head>
+    <!-- SECTION D'EN-TÊTE - Métadonnées et liens externes -->
+    <meta charset="UTF-8"> <!-- Encodage UTF-8 pour supporter tous les caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Nicolas Den Dryver - Research Site</title> <!-- Titre affiché dans l'onglet du navigateur -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Lien vers la feuille de style CSS -->
+</head>
+
+<body>
+    <!-- 
+      CONTENEUR PRINCIPAL
+      Contient toute la structure visible de la page
+      Utilisé pour centrer et limiter la largeur du contenu
+    -->
+    <div class="container">
+        
+        <!-- 
+          EN-TÊTE DU SITE (HEADER)
+          Contient la navigation principale
+          Premier élément visible après le chargement
+        -->
+        <header class="header" role="banner"> <!-- rôle ARIA pour l'accessibilité -->
+            <nav class="nav" role="navigation" aria-label="Navigation principale">
+                <!-- 
+                  LISTE DE NAVIGATION
+                  Structure sémantique pour le menu (liste de liens)
+                  Chaque élément <li> représente un item du menu
+                -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="research.html" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="works.html" class="nav-link">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cv.html" class="nav-link">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- 
+          BANNIÈRE D'ACCUEIL
+          Zone principale d'accueil avec image de fond
+          Premier élément de contenu après la navigation
+        -->
+        <div class="landing-banner">
+            <!-- 
+              TITRE PRINCIPAL
+              Phrase d'accroche principale du site
+              Élément visuel le plus important de la page
+            -->
+            <h1 class="banner-title">Nicolas Den Dryver's research</h1>
+        </div> 
+        
+        <!-- 
+          SECTION DES INSTITUTIONS PARTENAIRES
+          Affiche les logos des institutions collaboratrices
+          Montre les affiliations académiques du chercheur
+        -->
+        <section class="institutions-section" aria-label="Institutions partenaires">
+            <!-- 
+              CONTENEUR FLEXIBLE POUR LES LOGOS
+              Utilise Flexbox pour aligner les logos
+              flex-wrap permet le retour à la ligne sur petits écrans
+            -->
+            <div class="institutions-container">
+                <img class="institution-logo logo-saclay" 
+                     src="images/Institutions/sacaly.png" 
+                     alt="Logo de l'Université Paris-Saclay">
+                <img class="institution-logo logo-sorbonne" 
+                     src="images/Institutions/sorbonne.png" 
+                     alt="Logo de Sorbonne Université">
+                <img class="institution-logo logo-museum" 
+                     src="images/Institutions/musem.png" 
+                     alt="Logo du Muséum National d'Histoire Naturelle">
+                <img class="institution-logo logo-apt" 
+                     src="images/Institutions/apt.png" 
+                     alt="Logo de l'Association de Physique">
+            </div> 
+        </section> 
+        
+        <!-- 
+          PIED DE PAGE (FOOTER)
+          Dernière section de la page
+          Contient les informations légales et de copyright
+        -->
+        <footer class="site-footer" role="contentinfo">
+            <div class="footer-content">
+                <!-- 
+                  TEXTE DE COPYRIGHT
+                  Mention légale obligatoire
+                  Indique la propriété intellectuelle
+                -->
+                <p class="copyright">
+                    © 2026 Nicolas Den Dryver's research | Tous droits réservés.
+                </p>
+            </div>
+        </footer>
+        
+    </div> 
+    
+</body>
+</html>
