@@ -852,7 +852,7 @@ main {
         /* Styles pour le formulaire - AJOUT seulement */
         .form-section {
             max-width: 800px;
-            margin: 60px auto 40px;
+            margin: 80px auto 40px;
             padding: 40px;
             background-color: white;
             border-radius: 10px;
@@ -1066,4 +1066,5 @@ main {
     }
     
     .profile-image { max-width: 100%; }
+
 }
