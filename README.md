@@ -25,24 +25,40 @@ URL: https://[your-username].github.io/[repository-name]/
 
 ## 📁 Project Structure
 your-repo/
+
 ├── index.html # Homepage
 
 ├── about.html # About page
+
 ├── research.html # Research interests
+
 ├── works.html # Publications/works
+
 ├── cv.html # Curriculum Vitae
+
 ├── contact.html # Contact information
+
 │
+
 ├── css/
+
 │ └── styles.css # Main stylesheet
+
 │
+
 ├── images/
+
 │ ├── backgrounds/ # Background images
+
 │ ├── institutions/ # University logos
+
 │ ├── logo_contact/ # Social media logos
+
 │ └── moi/ # Personal photos
+
 │
 ├── LICENSE # License file
+
 └── README.md # This file
 
 
