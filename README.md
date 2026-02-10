@@ -26,6 +26,7 @@ URL: https://[your-username].github.io/[repository-name]/
 ## 📁 Project Structure
 your-repo/
 ├── index.html # Homepage
+
 ├── about.html # About page
 ├── research.html # Research interests
 ├── works.html # Publications/works
